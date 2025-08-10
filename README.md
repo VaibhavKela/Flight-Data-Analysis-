@@ -1,55 +1,72 @@
-✈️ Flight Data Analysis using SQL
-📌 Overview
-This project uses a simulated airline dataset to perform in-depth data analysis using SQL.
-It demonstrates database design, data manipulation, and querying techniques to extract meaningful insights from structured data.
+<h1 style="color:#007acc;">✈️ Flight Data Analysis using SQL</h1>
 
-🛠 Features & Insights
-🗄 Relational Database Schema: Airports, Airlines, Flights, Passengers, and Tickets.
+<p>
+  <b style="color:#444;">A SQL project using simulated airline data for in-depth data analysis</b>
+</p>
 
-🧠 Complex SQL Queries including:
+<hr style="border: 1px solid #ddd;"/>
 
-JOINs
+<h2 style="color:#ff9800;">📌 Overview</h2>
+<p>
+This project uses a <b>simulated airline dataset</b> to perform in-depth <b>data analysis</b> using SQL.<br>
+It demonstrates <b>database design</b>, <b>data manipulation</b>, and <b>querying techniques</b> to extract meaningful insights from structured data.
+</p>
 
-CTEs (Common Table Expressions)
+<hr style="border: 1px solid #ddd;"/>
 
-Window Functions (RANK, ROW_NUMBER)
+<h2 style="color:#4caf50;">🛠 Features & Insights</h2>
+<ul>
+  <li>🗄 <b>Relational Database Schema</b>: Airports, Airlines, Flights, Passengers, and Tickets.</li>
+  <li>🧠 <b>Complex SQL Queries</b> including:
+    <ul>
+      <li>JOINs</li>
+      <li>CTEs (Common Table Expressions)</li>
+      <li>Window Functions (RANK, ROW_NUMBER)</li>
+      <li>Aggregations (COUNT, SUM, GROUP BY)</li>
+      <li>Conditional Logic (CASE)</li>
+    </ul>
+  </li>
+  <li>📊 <b>Analytical Outcomes</b>:
+    <ol>
+      <li>Busiest airport by number of flights.</li>
+      <li>Tickets sold per airline.</li>
+      <li>Airline-specific flight listings (origin & destination).</li>
+      <li>Top airline for each airport.</li>
+      <li>Flight duration categorization (Short, Medium, Long).</li>
+      <li>Passenger travel history (first & last flights).</li>
+      <li>Highest-priced ticket per route.</li>
+      <li>Top-spending passenger per loyalty tier.</li>
+    </ol>
+  </li>
+</ul>
 
-Aggregations (COUNT, SUM, GROUP BY)
+<hr style="border: 1px solid #ddd;"/>
 
-Conditional Logic (CASE)
+<h2 style="color:#2196f3;">📂 Repository Contents</h2>
+<ul>
+  <li><b>flight_dataanalysis.sql</b> → Database creation, mock data insertion, and analysis queries.</li>
+</ul>
 
-📊 Analytical Outcomes:
+<hr style="border: 1px solid #ddd;"/>
 
-Busiest airport by number of flights.
+<h2 style="color:#9c27b0;">🖥 Tech Stack</h2>
+<ul>
+  <li>💾 <b>SQL Server</b> (T-SQL)</li>
+  <li>🗃 <b>Data Modeling & Relational Database Design</b></li>
+</ul>
 
-Tickets sold per airline.
+<hr style="border: 1px solid #ddd;"/>
 
-Airline-specific flight listings (origin & destination).
+<h2 style="color:#e91e63;">🚀 How to Run</h2>
+<ol>
+  <li>Open <code>flight_dataanalysis.sql</code> in SQL Server Management Studio (SSMS).</li>
+  <li>Run the script to create the database, insert mock data, and execute queries.</li>
+  <li>View output in the query results pane.</li>
+</ol>
 
-Top airline for each airport.
+<hr style="border: 1px solid #ddd;"/>
 
-Flight duration categorization (Short, Medium, Long).
-
-Passenger travel history (first & last flights).
-
-Highest-priced ticket per route.
-
-Top-spending passenger per loyalty tier.
-
-📂 Repository Contents
-📄 flight_dataanalysis.sql → Database creation, mock data insertion, and analysis queries.
-
-🖥 Tech Stack
-💾 SQL Server (T-SQL)
-
-🗃 Data Modeling & Relational Database Design
-
-🚀 How to Run
-Open flight_dataanalysis.sql in SQL Server Management Studio (SSMS).
-
-Run the script to create the database, insert mock data, and execute queries.
-
-View output in the query results pane.
-
-📈 Skills Highlighted
-SQL • Database Design • Data Analysis • Data Modeling • Analytical Thinking
+<h2 style="color:#795548;">📈 Skills Highlighted</h2>
+<p>
+<code>SQL</code> • <code>Database Design</code> • <code>Data Analysis</code> • <code>Data Modeling</code> • <code>Analytical Thinking</code>
+</p>
